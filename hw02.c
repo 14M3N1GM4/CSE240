@@ -11,12 +11,11 @@ int func(int a, int b) { return (a*a + b*b - 2 * a*b); }
 void part1(int x, int y) {
 	int i = x, j = y, result;
 
-	result = max(i, ++j);
+	result = max(i, j++);
 	printf("max(%d,%d) = %d\n\n\n", x, (++y), result);
 
 	// Why did this error occur? Please provide the answer in your own words below following "Explanation Part 1:" (5 points)
 	printf("Explanation Part 1:          \n\n");
-	// testing for github
 }
 
 
