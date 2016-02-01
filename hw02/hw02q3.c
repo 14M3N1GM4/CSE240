@@ -29,7 +29,7 @@ void part2(int x, int y) {
 	printf("func(x, y) = %d\nmac(x, y) = %d\n\n", func(++i, ++j), mac(++s, ++t));
 
 	// Replace the 4 '_' spaces below with respect to the actual output observed when running the code in VS and GCC.
-	printf("In VS : the result of func(x, y) = _ and mac(x, y) = _\n"); // (5 points)
+	printf("In VS : the result of func(x, y) = 1 and mac(x, y) = 1\n"); // (5 points)
 	printf("In GCC: the result of func(x, y) = 1 and mac(x, y) = -27\n\n"); // (5 points)
 
 	// Explain why Visual Studio and GCC programming environments could possibly produce a different y value for the same program and for the same input. (5 points)
