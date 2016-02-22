@@ -10,4 +10,4 @@ hw5:
 	$(CC) $(CFLAGS) -o hw5 hw5.c
 
 clean:
-	rm -f hw5
+	rm -f hw5 Student_List.txt
